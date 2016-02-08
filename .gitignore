@@ -1,6 +1,6 @@
 # python
 *.py[cod]
 # flask assets
-static/.webassets-cache
+ces-asia/static/.webassets-cache
 # javascript things
 node_modules
