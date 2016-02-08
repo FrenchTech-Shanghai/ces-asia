@@ -11,9 +11,11 @@ Flask-WTF==0.12
 Flask==0.10.1
 itsdangerous==0.24        # via flask
 Jinja2==2.8
+libsass==0.10.1
 MarkupSafe==0.23
 nodeenv==0.13.6
 pytz==2015.7              # via babel
+six==1.10.0               # via libsass
 speaklater==1.3           # via flask-babel
 webassets==0.11.1         # via flask-assets
 Werkzeug==0.11.3

@@ -2,4 +2,5 @@ Flask==0.10.1
 Flask-Assets==0.11
 Flask-Babel==0.9
 Flask-WTF==0.12
+libsass==0.10.1
 nodeenv==0.13.6
