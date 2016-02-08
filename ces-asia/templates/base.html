@@ -3,6 +3,8 @@
         <title>{% block title %}{% endblock %}{{ _('La French Tech at CES Asia 2016') }}</title>
         <meta charset="utf-8"/>
         <link rel="icon" href="/static/favicon.ico?v=1" sizes="16x16 24x24 32x32 64x64" type="image/vnd.microsoft.icon">
+        <link href="{{ url_for('static', filename='bower_components/normalize.css/normalize.css') }}" rel="stylesheet"/>
+        <link href="{{ url_for('static', filename='bower_components/milligram/dist/milligram.min.css') }}" rel="stylesheet"/>
         {% assets output='style-gen.css', 'style.css' %}
         <link href="{{ ASSET_URL }}" rel="stylesheet"/>
         {% endassets %}

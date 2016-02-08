@@ -4,3 +4,4 @@
 ces-asia/static/.webassets-cache
 # javascript things
 node_modules
+ces-asia/static/bower_components

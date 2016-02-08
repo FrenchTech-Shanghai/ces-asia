@@ -14,7 +14,8 @@ To install the development environment, follow those steps:
 
     $ pip install requirements.txt
     $ nodeenv -p --prebuilt -c
-    $ npm install
+    $ npm install -g bower
+    $ bower install
     $ pybabel compile -d translations
 
 License

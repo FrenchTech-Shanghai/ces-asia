@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/FrenchTech-Shanghai/ces-asia#readme",
   "dependencies": {
-    "milligram": "^1.1.0"
+    "bower": "^1.7.7"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "name": "ces-asia",
+  "description": "La French Tech Shanghai CES Asia website",
+  "main": "index.js",
+  "authors": [
+    "Stefan 'hr' Berder <hr@bonz.org>"
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "website",
+    "FrenchTech",
+    "Shanghai"
+  ],
+  "homepage": "https://github.com/FrenchTech-Shanghai/ces-asia",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "milligram": "^1.1.0"
+  }
+}
