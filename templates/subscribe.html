@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}{{ _('Subscription') }} :: {% endblock %}
+
+{% block content %}
+<form action="" method="post">
+    <input type="text" name="name" placeholder="{{ _('Name') }}">
+    <input type="text" name"email" placeholder="{{ _('Contact email') }}">
+    <input type="submit" name="subscribe" value="{{ _('Subscribe') }}">
+</form>
+{% endblock %}

@@ -1,0 +1,6 @@
+# python
+*.py[cod]
+# flask assets
+static/.webassets-cache
+# javascript things
+node_modules

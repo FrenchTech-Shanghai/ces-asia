@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en">
+    <head>
+        <title>{% block title %}{% endblock %}{{ _('La French Tech at CES Asia 2016') }}</title>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="/static/favicon.ico?v=1" sizes="16x16 24x24 32x32 64x64" type="image/vnd.microsoft.icon">
+        {% assets output='style-gen.css', 'style.css' %}
+        <link href="{{ ASSET_URL }}" rel="stylesheet"/>
+        {% endassets %}
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo roundbox">
+                <img src="{{ url_for('static', filename='lafrenchtech_sh.png') }}" alt="La French Tech Shanghai logo"></a>
+            </div>
+            <div class="content">
+                <div class="lang roundbox"><a href="{{ url_for('index', lang='fr') }}">fr</a>&nbsp;&vert;&nbsp;<a href="{{ url_for('index', lang='en') }}">en</a>&nbsp;&vert;&nbsp;<a href="{{ url_for('index', lang='zh') }}">中文</a></div>
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+        <p class="footer"></p>
+    </body>
+</html>

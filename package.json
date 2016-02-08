@@ -1,0 +1,27 @@
+{
+  "name": "ces-asia",
+  "version": "1.0.0",
+  "description": "La French Tech Shanghai CES Asia website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrenchTech-Shanghai/ces-asia.git"
+  },
+  "keywords": [
+    "website",
+    "FrenchTech",
+    "Shanghai"
+  ],
+  "author": "Stefan 'hr' Berder <hr@bonz.org>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/FrenchTech-Shanghai/ces-asia/issues"
+  },
+  "homepage": "https://github.com/FrenchTech-Shanghai/ces-asia#readme",
+  "dependencies": {
+    "milligram": "^1.1.0"
+  }
+}
