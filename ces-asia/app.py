@@ -29,7 +29,7 @@ def get_locale():
 @app.route('/<lang>/')
 @app.route('/')
 def index(lang=None):
-    return render_template('subscribe.html')
+    return render_template('signup.html')
 
 if __name__ == '__main__':
     app.run('0.0.0.0', debug=True)
