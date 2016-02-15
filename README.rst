@@ -18,6 +18,14 @@ To install the development environment, follow those steps:
     $ bower install
     $ pybabel compile -d translations
 
+Compile requirement file
+------------------------
+
+.. code:: shell
+
+    $ pip install pip-tools
+    $ pip-compile requirements.in
+
 License
 =======
 
