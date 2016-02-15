@@ -1,0 +1,19 @@
+/*
+ * milligram CSS overload
+ * https://milligram.github.io/
+ */
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+    background: $lft_red;
+    border-color: $lft_red;
+
+    &:hover,
+    &:focus {
+        background-color: $lft_grey;
+        border-color: $lft_grey;
+    }
+}

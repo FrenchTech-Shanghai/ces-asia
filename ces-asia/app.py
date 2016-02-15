@@ -12,6 +12,11 @@ app.config.from_object(__name__)
 assets = Environment(app)
 babel = Babel(app)
 
+style = Bundle('css/style.scss',
+               filters='libsass',
+               output='css/style.css',
+               depends='css/*/*.scss')
+assets.register('localstyle', style)
 
 @babel.localeselector
 def get_locale():

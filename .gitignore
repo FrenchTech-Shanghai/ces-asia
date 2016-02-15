@@ -2,6 +2,7 @@
 *.py[cod]
 # flask assets
 ces-asia/static/.webassets-cache
+ces-asia/static/css/style.css
 # javascript things
 node_modules
 ces-asia/static/bower_components
