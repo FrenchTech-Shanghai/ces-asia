@@ -16,7 +16,7 @@ babel = Babel(app)
 assets.config['libsass_includes'] = [app.config['BOWER_PATH'], ]
 
 style = Bundle('css/style.scss',
-               filters='libsass',
+               filters='libsass, cssmin',
                output='css/style.css',
                depends='css/*/*.scss')
 assets.register('localstyle', style)
