@@ -1,11 +1,11 @@
 # python
 *.py[cod]
 # flask assets
-ces-asia/static/.webassets-cache
-ces-asia/static/css/style.css
-ces-asia/static/css/pure.css
+ces_asia/static/.webassets-cache
+ces_asia/static/css/style.css
+ces_asia/static/css/pure.css
 # flask babel
 *.mo
 # javascript things
 node_modules
-ces-asia/static/bower_components
+ces_asia/static/bower_components

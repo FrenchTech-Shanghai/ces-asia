@@ -18,6 +18,13 @@ To install the development environment, follow those steps:
     $ bower install
     $ pybabel compile -d translations
 
+Create database
+---------------
+
+.. code:: shell
+
+    $ python utils/init_db.py
+
 Compile requirement file
 ------------------------
 
@@ -36,14 +43,14 @@ After adding new strings, run the following commands:
 
 .. code-block:: sh
 
-    $ pybabel extract -F babel.cfg -o messages.pot ces-asia/
-    $ pybabel update -i messages.pot -d ces-asia/translations
+    $ pybabel extract -F babel.cfg -o messages.pot ces_asia/
+    $ pybabel update -i messages.pot -d ces_asia/translations
 
-You can now edit the ``.po`` files in the ``ces-asia/translations/`` folder. When the translations are done, run the following:
+You can now edit the ``.po`` files in the ``ces_asia/translations/`` folder. When the translations are done, run the following:
 
 .. code-block:: sh
 
-    $ pybabel compile -d ces-asia/translations
+    $ pybabel compile -d ces_asia/translations
 
 License
 =======
