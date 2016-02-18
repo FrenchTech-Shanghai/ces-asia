@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+// bourbon.io framework
+@import "bourbon/app/assets/stylesheets/bourbon";
+
+// simple flexbox mixins
+//@import "sass-flex-mixin/flexbox";
+
 // mixins
 //@import "components/prefixer";
 
@@ -8,6 +14,12 @@
 
 // general
 @import "components/base";
+
+// header menu
+@import "components/header";
+
+// content
+@import "components/content";
 
 // vendor
 @import "vendors/milligram";

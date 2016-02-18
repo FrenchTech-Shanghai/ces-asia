@@ -1,6 +1,22 @@
 html {
+    height: 100%;
 }
 
 body {
     color: $lft_grey;
+    font-size: $base-font-size;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: $wrapper-width;
 }

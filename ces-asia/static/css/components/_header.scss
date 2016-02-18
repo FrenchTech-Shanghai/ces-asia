@@ -1,0 +1,130 @@
+/*
+ * Header menu
+ */
+
+.navbar-container {
+    background: $menu-bg;
+    overflow:hidden;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar-content {
+    a.logo {
+        display: inline-block;
+        float: left;
+
+        img {
+            margin: 8px 0;
+        }
+    }
+}
+
+nav.main-menu {
+    @include align-items(center);
+    @include display(flex);
+    @include justify-content(flex-end);
+
+    a {
+        color: $lft_grey;
+        display: block;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1em 1.4em;
+        
+        &:hover {
+            color: white;
+        }
+    }
+
+    ul {
+        height: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        @include display(flex);
+        @include justify-content(flex-end);
+        @include flex(0 1 auto);
+
+        li {
+            line-height: 1em;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            transition: all 0.4s ease;
+            @include flex(0 1 auto);
+
+            a {
+                border-right: 1px solid $lft_dark_grey;
+            }
+
+            &:hover {
+                background: $lft-red;
+            }
+
+            &:last-child {
+                a {
+                    border-right: none;
+                }
+            }
+        }
+    }
+
+    nav.lang {
+        margin-left: 2em;
+        @include align-items(center);
+        @include display(flex);
+        @include justify-content(flex-end);
+        @include flex(0 1 auto);
+
+        a {
+            color: $lft_grey;
+            display: block;
+            font-size: 0.6em;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0.5em 0.7em;
+            
+            &:hover {
+                color: white;
+            }
+        }
+
+        ul {
+            height: 100%;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            @include display(flex);
+            @include justify-content(flex-end);
+            @include flex(0 1 auto);
+
+            li {
+                line-height: 1em;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                transition: none;
+                @include flex(0 1 auto);
+
+                a {
+                    border-right: 1px solid $lft_dark_grey;
+                }
+
+                &:hover {
+                    background: none;
+                    border-bottom: solid 4px $lft_red;
+                    margin-bottom: -4px;
+                }
+
+                &:last-child {
+                    a {
+                        border-right: none;
+                    }
+                }
+            }
+        }
+    }
+}

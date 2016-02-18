@@ -4,19 +4,32 @@
         <meta charset="utf-8"/>
         <link rel="icon" href="/static/favicon.ico?v=1" sizes="16x16 24x24 32x32 64x64" type="image/vnd.microsoft.icon">
         <link href="{{ url_for('static', filename='bower_components/normalize.css/normalize.css') }}" rel="stylesheet"/>
-        <link href="{{ url_for('static', filename='bower_components/milligram/dist/milligram.min.css') }}" rel="stylesheet"/>
         {% assets "localstyle" %}
         <link href="{{ ASSET_URL }}" rel="stylesheet"/>
         {% endassets %}
     </head>
     <body>
-        <div class="container">
-            <div class="logo">
-                <img src="{{ url_for('static', filename='lafrenchtech_sh.png') }}" alt="La French Tech Shanghai logo"></a>
+        <header class="navbar-container" role="banner">
+            <div class="wrapper navbar-content">
+                <a class="logo" href=""><img src="{{ url_for('static', filename='img/lft-sh_logo.png') }}" alt="{{ _('La French Tech Shanghai logo') }}"></a>
+                <nav class="main-menu" role="navigation">
+                    <ul>
+                        <li><a href="{{ url_for('index', lang=session.lang) }}"><div>{{ _("What's CES ASIA") }}</div></a></li>
+                        <li><a href="{{ url_for('signup', lang=session.lang) }}"><div>{{ _("Signup") }}</div></a></li>
+                    </ul>
+                    <nav class="lang">
+                        <ul>
+                            <li><a href="{{ url_for(request.endpoint, lang='fr') }}">fr</a></li>
+                            <li><a href="{{ url_for(request.endpoint, lang='en') }}">en</a></li>
+                            <li><a href="{{ url_for(request.endpoint, lang='zh') }}">中文</a></li>
+                        </ul>
+                    </nav>
+                </nav>
             </div>
-            <div class="content">
-                <div class="lang roundbox"><a href="{{ url_for('index', lang='fr') }}">fr</a>&nbsp;&vert;&nbsp;<a href="{{ url_for('index', lang='en') }}">en</a>&nbsp;&vert;&nbsp;<a href="{{ url_for('index', lang='zh') }}">中文</a></div>
-                {% block content %}{% endblock %}
+        </header>
+        <div class="content">
+            <div class="wrapper">
+                {% block content %}{% endblock content %}
             </div>
         </div>
         <p class="footer"></p>
