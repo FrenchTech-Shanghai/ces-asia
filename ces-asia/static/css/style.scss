@@ -3,9 +3,6 @@
 // bourbon.io framework
 @import "bourbon/app/assets/stylesheets/bourbon";
 
-// simple flexbox mixins
-//@import "sass-flex-mixin/flexbox";
-
 // mixins
 //@import "components/prefixer";
 
@@ -20,6 +17,3 @@
 
 // content
 @import "components/content";
-
-// vendor
-@import "vendors/milligram";
