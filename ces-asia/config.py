@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os.path
 
-LANGUAGES = ['fr', 'en', 'zh']
+LANGUAGES = ['fr', 'en', 'zh_CN']
 BABEL_DEFAULT_LOCALE = 'fr'
 SECRET_KEY = 'test'
 

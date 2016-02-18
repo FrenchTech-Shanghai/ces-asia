@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from os.path import abspath, join
 
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request, g, abort
 from flask.ext.babel import Babel
 from flask.ext.assets import Environment, Bundle
 
@@ -21,27 +21,32 @@ style = Bundle('css/style.scss',
                depends='css/*/*.scss')
 assets.register('localstyle', style)
 
+
+@app.before_request
+def before():
+    if request.view_args and 'lang' in request.view_args:
+        if request.view_args['lang'] not in app.config['LANGUAGES']:
+            return abort(404)
+        g.current_lang = request.view_args['lang']
+        request.view_args.pop('lang')
+    else:
+        g.current_lang = app.config['BABEL_DEFAULT_LOCALE']
+
 @babel.localeselector
 def get_locale():
-    if 'lang' in session and \
-        session['lang'] in app.config['LANGUAGES']:
-        return session['lang']
+    if 'current_lang' in g:
+        return g.get('current_lang')
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 
-@app.route('/signup/<lang>/')
+@app.route('/<lang>/signup/')
 @app.route('/signup/')
-def signup(lang=None):
+def signup():
     return render_template('signup.html')
 
 @app.route('/<lang>/')
 @app.route('/')
-def index(lang=None):
-    if lang is not None:
-        if lang not in app.config['LANGUAGES']:
-            lang = None
-        session['lang'] = lang
-
+def index():
     return render_template('index.html')
 
 if __name__ == '__main__':

@@ -3,6 +3,8 @@
 # flask assets
 ces-asia/static/.webassets-cache
 ces-asia/static/css/style.css
+# flask babel
+*.mo
 # javascript things
 node_modules
 ces-asia/static/bower_components

@@ -1,0 +1,51 @@
+# English translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-02-18 12:31+0800\n"
+"PO-Revision-Date: 2016-02-18 11:47+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: ces-asia/templates/base.html:3
+msgid "La French Tech at CES Asia 2016"
+msgstr ""
+
+#: ces-asia/templates/base.html:14
+msgid "La French Tech Shanghai Community logo"
+msgstr ""
+
+#: ces-asia/templates/base.html:17
+msgid "What's CES Asia"
+msgstr ""
+
+#: ces-asia/templates/base.html:18 ces-asia/templates/signup.html:3
+#: ces-asia/templates/signup.html:9
+msgid "Signup"
+msgstr ""
+
+#: ces-asia/templates/signup.html:7
+msgid "Name"
+msgstr ""
+
+#: ces-asia/templates/signup.html:8
+msgid "Contact email"
+msgstr ""
+
+#~ msgid "La French Tech Shanghai logo"
+#~ msgstr ""
+
+#~ msgid "What's CES ASIA"
+#~ msgstr ""
+

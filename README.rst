@@ -26,6 +26,25 @@ Compile requirement file
     $ pip install pip-tools
     $ pip-compile requirements.in
 
+i18n & translation
+------------------
+
+Make sure all the strings are passed through ``gettext()`` or ``_()`` in the python
+files or the templates.
+
+After adding new strings, run the following commands:
+
+.. code-block:: sh
+
+    $ pybabel extract -F babel.cfg -o messages.pot ces-asia/
+    $ pybabel update -i messages.pot -d ces-asia/translations
+
+You can now edit the ``.po`` files in the ``ces-asia/translations/`` folder. When the translations are done, run the following:
+
+.. code-block:: sh
+
+    $ pybabel compile -d ces-asia/translations
+
 License
 =======
 
