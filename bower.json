@@ -22,6 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "milligram": "^1.1.0"
+    "normalize-css": "^3.0.3",
+    "bourbon": "^4.2.6"
   }
 }
