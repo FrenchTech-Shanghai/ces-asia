@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en">
     <head>
-        <title>{% block title %}{% endblock %}{{ _('La French Tech at CES Asia 2016') }}</title>
+        <title>{% block title %}{% endblock title %}{{ _('La French Tech at CES Asia 2016') }}</title>
         <meta charset="utf-8"/>
         <link rel="icon" href="/static/favicon.ico?v=1" sizes="16x16 24x24 32x32 64x64" type="image/vnd.microsoft.icon">
         <link href="{{ url_for('static', filename='bower_components/normalize.css/normalize.css') }}" rel="stylesheet"/>
@@ -14,8 +14,9 @@
                 <a class="logo" href=""><img src="{{ url_for('static', filename='img/lft-sh_logo.png') }}" alt="{{ _('La French Tech Shanghai Community logo') }}"></a>
                 <nav class="main-menu" role="navigation">
                     <ul>
-                        <li><a href="{{ url_for('index', lang=g.lang) }}"><div>{{ _("What's CES Asia") }}</div></a></li>
+                        <li><a href="{{ url_for('index', lang=g.lang) }}"><div>{{ _("What's CES Asia") }}?</div></a></li>
                         <li><a href="{{ url_for('signup', lang=g.lang) }}"><div>{{ _("Signup") }}</div></a></li>
+                        <li><a href="{{ url_for('index', lang=g.lang) }}"><div>{{ _("FAQ") }}</div></a></li>
                     </ul>
                     <nav class="lang">
                         <ul>
@@ -28,10 +29,17 @@
             </div>
         </header>
         <div class="content">
+            <section class="title">
+                <div class="wrapper">
+                    <h1>{% block pagetitle %}{% endblock pagetitle %}</h1>
+                </div>
+            </section>
             <div class="wrapper">
                 {% block content %}{% endblock content %}
             </div>
         </div>
-        <p class="footer"></p>
+        <footer>
+            https://github.com/FrenchTech-Shanghai/ces-asia / http://www.lafrenchtech.com/
+        </footer>
     </body>
 </html>

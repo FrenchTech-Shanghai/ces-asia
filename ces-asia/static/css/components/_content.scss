@@ -1,0 +1,23 @@
+/*
+ * Main content
+ */
+
+.content {
+    section.title {
+        background: $lft_red;
+        margin-bottom: 3em;
+        overflow: hidden;
+        width: 100%;
+
+        h1 {
+            color: white;
+            margin-top: 0.5em;
+            text-align: center;
+        }
+    }
+
+    p {
+        font-family: $content-font-family;
+        font-size: 1.1em;
+    }
+}
