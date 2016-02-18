@@ -4,3 +4,4 @@ Flask-Babel==0.9
 Flask-WTF==0.12
 libsass==0.10.1
 nodeenv==0.13.6
+cssmin==0.2.0

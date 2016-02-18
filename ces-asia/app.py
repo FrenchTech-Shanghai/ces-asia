@@ -21,6 +21,13 @@ style = Bundle('css/style.scss',
                depends='css/*/*.scss')
 assets.register('localstyle', style)
 
+purecss = Bundle('bower_components/pure/base-min.css',
+                 'bower_components/pure/buttons-core-min.css',
+                 'bower_components/pure/buttons-min.css',
+                 'bower_components/pure/forms-min.css',
+                 filters='cssmin',
+                 output='css/pure.css')
+assets.register('purecss', purecss)
 
 @app.before_request
 def before():
