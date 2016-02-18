@@ -1,6 +1,8 @@
 Flask==0.10.1
 Flask-Assets==0.11
 Flask-Babel==0.9
+Flask-Migrate==1.7.0
+Flask-SQLAlchemy==2.1
 Flask-WTF==0.12
 libsass==0.10.1
 nodeenv==0.13.6
