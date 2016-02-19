@@ -2,7 +2,7 @@
  *  customisation for http://purecss.io/
  */
 .button-primary {
-    background: $lft_red;
+    background: $btn-bg;
     border-radius: 4px;
     color: white;
 }
@@ -23,5 +23,5 @@
 .pure-form input[type="color"]:focus,
 .pure-form select:focus,
 .pure-form textarea:focus {
-    border-color: $lft_red;
+    border-color: $input-border;
 }

@@ -26,7 +26,7 @@ nav.main-menu {
     @include justify-content(flex-end);
 
     a {
-        color: $lft_grey;
+        color: $menu-item-color;
         display: block;
         font-weight: 700;
         max-width: 12em;
@@ -42,7 +42,7 @@ nav.main-menu {
         &:after {
             content: "";
             display: block;
-            border-right: 1px solid $lft_dark_grey;
+            border-right: 1px solid $menu-sep-color;
             height: $menu-sep-height;
             margin-top: -$menu-sep-height / 2;
             position: absolute;
@@ -71,7 +71,7 @@ nav.main-menu {
             @include justify-content(center);
 
             &:hover {
-                background: $lft-red;
+                background: $menu-item-bg;
             }
 
             &:last-child {
@@ -94,7 +94,7 @@ nav.main-menu {
             padding: 0.5em 0.7em;
 
             &:hover {
-                color: $lft_grey;
+                color: $menu-item-color;
             }
         }
 
@@ -105,7 +105,7 @@ nav.main-menu {
 
                 &:hover {
                     background: none;
-                    border-bottom: solid 4px $lft_red;
+                    border-bottom: solid 4px $menu-item-bg;
                     margin-bottom: -4px;
                 }
             }
