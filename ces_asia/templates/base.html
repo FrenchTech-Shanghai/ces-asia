@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="en">
     <head>
-        <title>{% block title %}{% endblock title %}{{ _('La French Tech at CES Asia 2016') }}</title>
+        <title>{% block title %}{% endblock title %}{% if self.title() %} :: {% endif %}{{ _('La French Tech at CES Asia 2016') }}</title>
         <meta charset="utf-8"/>
         <link rel="icon" href="/static/favicon.ico?v=1" sizes="16x16 24x24 32x32 64x64" type="image/vnd.microsoft.icon">
         <link href="{{ url_for('static', filename='bower_components/normalize.css/normalize.css') }}" rel="stylesheet"/>
@@ -14,10 +14,10 @@
     <body>
         <header class="navbar-container" role="banner">
             <div class="wrapper navbar-content">
-                <a class="logo" href=""><img src="{{ url_for('static', filename='img/lft-sh_logo.png') }}" alt="{{ _('La French Tech Shanghai Community logo') }}"></a>
+                <a class="logo" href="{{ url_for('index', lang=g.lang) }}"><img src="{{ url_for('static', filename='img/lft-sh_logo.png') }}" alt="{{ _('La French Tech Shanghai Community logo') }}"></a>
                 <nav class="main-menu" role="navigation">
                     <ul>
-                        <li><a href="{{ url_for('index', lang=g.lang) }}"><div>{{ _("What's CES Asia") }}?</div></a></li>
+                        <li><a href="{{ url_for('about', lang=g.lang) }}"><div>{{ _("What's CES Asia") }}?</div></a></li>
                         <li><a href="{{ url_for('signup', lang=g.lang) }}"><div>{{ _("Signup") }}</div></a></li>
                         <li><a href="{{ url_for('index', lang=g.lang) }}"><div>{{ _("FAQ") }}</div></a></li>
                     </ul>
@@ -32,11 +32,13 @@
             </div>
         </header>
         <div class="content">
+            {% if self.title() %}
             <section class="title">
                 <div class="wrapper">
-                    <h1>{% block pagetitle %}{% endblock pagetitle %}</h1>
+                    <h1>{{ self.title() }}</h1>
                 </div>
             </section>
+            {% endif %}
             <div class="wrapper">
                 {% block content %}{% endblock content %}
             </div>
