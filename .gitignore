@@ -6,6 +6,8 @@ ces_asia/static/css/style.css
 ces_asia/static/css/pure.css
 # flask babel
 *.mo
+# database
+ces_asia/data.db
 # javascript things
 node_modules
 ces_asia/static/bower_components

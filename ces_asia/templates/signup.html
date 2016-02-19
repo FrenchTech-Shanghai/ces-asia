@@ -1,11 +1,25 @@
 {% extends "base.html" %}
 
-{% block title %}{{ _('Signup') }} :: {% endblock %}
+{% block title %}{{ _('Signup') }} :: {% endblock title %}
+{% block pagetitle %}{{ _('Signup') }}{% endblock pagetitle %}
 
 {% block content %}
-<form action="" method="post">
-    <input type="text" name="name" placeholder="{{ _('Name') }}">
-    <input type="text" name"email" placeholder="{{ _('Contact email') }}">
-    <input type="submit" name="signup" value="{{ _('Signup') }}">
+
+{% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
+{% endfor %}
+
+<form method="post" action="{{ url_for(request.endpoint) }}" class="pure-form pure-form-stacked">
+    {{ form.hidden_tag() }}
+
+    {{form.name.label}}
+    {{ form.name(size=20, placeholder=form.name.label.text) }}
+    
+    {{form.contact.label}}
+    {{ form.contact(size=20, placeholder=form.contact.label.text) }}
+    
+    {{form.email.label}}
+    {{ form.email(size=20, placeholder=form.email.label.text) }}
+    <button type="submit" class="pure-button button-primary" name="signup">{{ _('Signup') }}</button>
 </form>
 {% endblock %}

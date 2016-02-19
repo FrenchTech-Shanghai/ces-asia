@@ -1,11 +1,15 @@
 @charset "UTF-8";
 
+/*
+ * THIRD PARTY PACKAGES
+ */
 // bourbon.io framework
 @import "bourbon/app/assets/stylesheets/bourbon";
 
-// mixins
-//@import "components/prefixer";
 
+/*
+ *  LOCAL
+ */
 // variables
 @import "components/variables";
 
@@ -20,3 +24,10 @@
 
 // footer
 @import "components/footer";
+
+
+/*
+ *  VENDORS
+ */
+// pure.css
+@import "vendors/pure";
