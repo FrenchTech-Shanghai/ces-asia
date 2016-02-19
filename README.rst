@@ -43,7 +43,7 @@ After adding new strings, run the following commands:
 
 .. code-block:: sh
 
-    $ pybabel extract -F babel.cfg -o messages.pot ces_asia/
+    $ pybabel extract -F babel.cfg -k lazy_gettext -o messages.pot ces_asia/
     $ pybabel update -i messages.pot -d ces_asia/translations
 
 You can now edit the ``.po`` files in the ``ces_asia/translations/`` folder. When the translations are done, run the following:
