@@ -95,6 +95,16 @@ def signup():
     elif request.method == 'GET':
         return render_template('signup.html', form=form)
 
+@app.route('/<lang>/contacts/')
+@app.route('/contacts/')
+def contacts():
+    return render_template('contacts.html')
+
+@app.route('/<lang>/about/')
+@app.route('/about/')
+def about():
+    return render_template('about.html')
+
 @app.route('/<lang>/')
 @app.route('/')
 def index():

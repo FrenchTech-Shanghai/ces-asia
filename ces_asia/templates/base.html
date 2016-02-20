@@ -17,14 +17,16 @@
                 <a class="logo" href="{{ url_for('index', lang=g.lang) }}"><img src="{{ url_for('static', filename='img/lft-sh_logo.png') }}" alt="{{ _('La French Tech Shanghai Community logo') }}"></a>
                 <nav class="main-menu" role="navigation">
                     <ul>
-                        <li><a href="{{ url_for('about', lang=g.lang) }}"><div>{{ _("What's CES Asia") }}?</div></a></li>
+                        <li><a href="{{ url_for('index', lang=g.lang) }}"><div>{{ _("Home") }}</div></a></li>
+                        <!-- <li><a href="{{ url_for('about', lang=g.lang) }}"><div>{{ _("What's CES Asia") }}?</div></a></li> -->
                         <li><a href="{{ url_for('signup', lang=g.lang) }}"><div>{{ _("Signup") }}</div></a></li>
-                        <li><a href="{{ url_for('index', lang=g.lang) }}"><div>{{ _("FAQ") }}</div></a></li>
+                        <li><a href="{{ url_for('contacts', lang=g.lang) }}"><div>{{ _("Contacts") }}</div></a></li>
+                        <!-- <li><a href="{{ url_for('index', lang=g.lang) }}"><div>{{ _("FAQ") }}</div></a></li> -->
                     </ul>
                     <nav class="lang">
                         <ul>
                             <li><a href="{{ url_for(request.endpoint, lang='fr') }}">fr</a></li>
-                            <li><a href="{{ url_for(request.endpoint, lang='en') }}">en</a></li>
+                            <!-- <li><a href="{{ url_for(request.endpoint, lang='en') }}">en</a></li> -->
                             <li><a href="{{ url_for(request.endpoint, lang='zh_CN') }}">中文</a></li>
                         </ul>
                     </nav>
