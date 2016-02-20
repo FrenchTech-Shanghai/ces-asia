@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-18 12:31+0800\n"
+"POT-Creation-Date: 2016-02-20 17:58+0800\n"
 "PO-Revision-Date: 2016-02-18 11:48+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_Hans_CN\n"
@@ -19,34 +18,167 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
 
-#: ces-asia/templates/base.html:3
-msgid "La French Tech at CES Asia 2016"
-msgstr ""
+#: ces_asia/app.py:56
+msgid "Company name"
+msgstr "Nom de l'entreprise"
 
-#: ces-asia/templates/base.html:14
-msgid "La French Tech Shanghai Community logo"
-msgstr ""
+#: ces_asia/app.py:57
+msgid "Contact name"
+msgstr "Nom du contact"
 
-#: ces-asia/templates/base.html:17
-msgid "What's CES Asia"
-msgstr ""
-
-#: ces-asia/templates/base.html:18 ces-asia/templates/signup.html:3
-#: ces-asia/templates/signup.html:9
-msgid "Signup"
-msgstr ""
-
-#: ces-asia/templates/signup.html:7
-msgid "Name"
-msgstr ""
-
-#: ces-asia/templates/signup.html:8
+#: ces_asia/app.py:58
 msgid "Contact email"
-msgstr ""
+msgstr "E-mail"
+
+#: ces_asia/app.py:84
+msgid "All fields are required"
+msgstr "Tous les champs doivent être remplis"
+
+#: ces_asia/app.py:92
+msgid "This company email is already signed up"
+msgstr "Cet email est déja enregistré"
+
+#: ces_asia/templates/about.html:3 ces_asia/templates/base.html:21
+msgid "What's CES Asia"
+msgstr "Qu'est-ce que le CES Asia"
+
+#: ces_asia/templates/base.html:3
+msgid "La French Tech at CES Asia 2016"
+msgstr "La French Tech au CES Asia 2016"
+
+#: ces_asia/templates/base.html:17 ces_asia/templates/index.html:6
+msgid "La French Tech Shanghai Community logo"
+msgstr "Logo de la French Tech Shanghai Community"
+
+#: ces_asia/templates/base.html:20
+msgid "Home"
+msgstr "Accueil"
+
+#: ces_asia/templates/base.html:22 ces_asia/templates/signup.html:3
+#: ces_asia/templates/signup.html:22
+msgid "Signup"
+msgstr "Inscription"
+
+#: ces_asia/templates/base.html:23 ces_asia/templates/contacts.html:3
+msgid "Contacts"
+msgstr "联系方式"
+
+#: ces_asia/templates/base.html:24
+msgid "FAQ"
+msgstr "FAQ"
+
+#: ces_asia/templates/contacts.html:6
+msgid "Press contacts"
+msgstr "联系方式"
+
+#: ces_asia/templates/contacts.html:8
+msgid "French and English"
+msgstr "Français et Anglais"
+
+#: ces_asia/templates/contacts.html:9
+msgid "Chinese"
+msgstr "中文"
+
+#: ces_asia/templates/contacts.html:9
+msgid "Wang Hailu"
+msgstr "Mr Wang Hailu 王海鲁先生"
+
+#: ces_asia/templates/index.html:7
+msgid "CES Asia logo"
+msgstr "Logo du CES Asia"
+
+#: ces_asia/templates/index.html:9
+msgid ""
+"La French Tech Shanghai Community et les autres métropoles de la Grande "
+"Chine affirment leur présence au CES Asia 2016"
+msgstr "La French Tech Shanghai Community 以及 La French Tech "
+
+#: ces_asia/templates/index.html:10
+msgid ""
+"Pour la première fois en Asie, les entreprises françaises se réuniront du"
+" 11 au 13 mai, dans le cadre du CES Asia 2016 à Shanghai, à l’initiative "
+"de la French Tech Shanghai Community."
+msgstr "亚洲史上的第一次,法国公司将首次在 La French Tech Shangha"
+
+#: ces_asia/templates/index.html:11
+msgid ""
+"Initiée en août 2015, l’ambition de la French Tech Shanghai Community est"
+" de favoriser le rayonnement des startups françaises et de créer un "
+"réseau pour soutenir les entrepreneurs français sur le marché intérieur "
+"chinois. Pour accompagner cette démarche et à l’initiative de la French "
+"Tech Shanghai Community, ces acteurs seront présents lors du CES Asia "
+"2016, du 11 au 13 mai, pour valoriser les dernières innovations issues "
+"d’entreprises françaises. Le pavillon French Tech Shanghai Community "
+"constituera ainsi un espace à part entière au sein du Startup Park et "
+"réunira les startups françaises les plus innovantes dans le domaine des "
+"technologies grand public. Il proposera un espace presse dédié dans "
+"lequel les exposants présenteront leurs innovations ainsi que des salles "
+"de réunions réservées pour des rencontres avec des partenaires ou des "
+"clients. Deux événements de mise en relation ponctueront le salon : un "
+"cocktail dînatoire, le 11 mai, offert par les organisateurs du CES Asia, "
+"avec tous les exposants présents. Une soirée, organisée à la résidence du"
+" consul général de France à Shanghai, le 12 mai, regroupera les acteurs "
+"de la French Tech en Chine, les institutions gouvernementales, les "
+"exposants du pavillon French Tech Shanghai Community, les sponsors et les"
+" partenaires locaux. Une cinquantaine de conférences thématiques seront "
+"proposées tout au long des trois jours. Plus de 30 000 visiteurs sont "
+"attendus dont les dirigeants des plus grandes entreprises High-Tech au "
+"monde, des leaders d’opinion et des membres de l’administration chinoise."
+msgstr "自 2015 年 8 月以来, La French Tech Shanghai Community 的目标就是帮助法国"
+
+#: ces_asia/templates/index.html:12
+msgid ""
+"« La Chine joue un rôle moteur essentiel pour tirer l’industrie High-Tech"
+" dans son ensemble vers l’avant et offre une chance incroyable "
+"d’accélérer le rythme de l’innovation. Le CES Asia est l’occasion, pour "
+"les visiteurs, de faire l’expérience de ces innovations, avec un accès "
+"exclusif à quelques-unes des plus grandes marques chinoises mais aussi du"
+" monde entier », explique Gary Shapiro, directeur de la Consumer "
+"Technology Association (organisation gouvernementale américaine) et "
+"organisateur du CES."
+msgstr "“中国正成为推动高技术产业向前发展的一个重要动力,并且为加快创新的"
+
+#: ces_asia/templates/index.html:13
+msgid "La French Tech, une ambition collective pour les startups françaises"
+msgstr "La French Tech——法国新兴企业共同的愿景"
+
+#: ces_asia/templates/index.html:14
+msgid ""
+"Lancée en novembre 2013, la French Tech vise à accélérer la croissance "
+"des startups numériques et à renforcer l’attractivité de la France dans "
+"la course mondiale à l’innovation. La French Tech désigne tous ceux qui "
+"travaillent dans ou pour les startups françaises en France et à "
+"l’étranger. Les entrepreneurs en premier lieu, mais aussi les "
+"investisseurs, les ingénieurs, les designers, les développeurs, les "
+"grands groupes, les associations, les médias, les instituts de recherche,"
+" etc. Autant d’acteurs qui s’engagent pour la croissance des startups "
+"françaises et leur rayonnement à l’international."
+msgstr "创始于 2013 年 11 月的 la French Tech 致力于加速数字新兴企业的增长以及加"
+
+#: ces_asia/templates/index.html:15
+msgid ""
+"Le CES, un rendez-vous incontournable de l’innovation et des nouvelles "
+"tendances"
+msgstr "CES——一场不可错过的创新与新趋势的盛宴"
+
+#: ces_asia/templates/index.html:16
+msgid ""
+"Créé à Las Vegas, le salon Consumer Electronics Show sert de terrain "
+"d’essai aux innovateurset aux technologies avant-gardistes. C’est un "
+"forum mondial pour ceux dont la prospérité est fondée sur les activités "
+"liées aux technologies grand public. Le premier CES Asia s’est déroulé, à"
+" Shanghai, en mai 2015."
+msgstr "2015 年 5 月,创立于拉斯维加斯的 CES(Consumer Electronics Show)沙龙已"
 
 #~ msgid "La French Tech Shanghai logo"
 #~ msgstr ""
 
 #~ msgid "What's CES ASIA"
+#~ msgstr ""
+
+#~ msgid "Name"
+#~ msgstr ""
+
+#~ msgid "Contact email"
 #~ msgstr ""
 
