@@ -5,8 +5,8 @@ CES Asia - La French Tech Shanghai CES Asia website
 A website to support the initiative of La French Tech Shanghai to organise a French Tech startup corner at CES Asia.
 
 
-Development
-===========
+Install
+=======
 
 To install the development environment, follow those steps:
 
@@ -17,6 +17,11 @@ To install the development environment, follow those steps:
     $ npm install -g bower
     $ bower install
     $ pybabel compile -d translations
+
+Development
+===========
+
+To install the development environment, follow the install steps and replace the pip requirement file by ``requirements-dev.txt``.
 
 Create database
 ---------------
