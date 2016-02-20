@@ -13,6 +13,7 @@
             color: white;
             margin-top: 0.5em;
             text-align: center;
+            text-transform: uppercase;
         }
     }
 
@@ -26,4 +27,24 @@
     background-color: #FBB0B0;
     padding: 10px;
     width: 400px;
+}
+
+p.hl {
+    font-weight: 700;
+}
+
+/*
+ *  Home
+ */
+article.home {
+    .toplogos {
+        @include align-items(center);
+        @include display(flex);
+        @include justify-content(space-around);
+
+        img {
+            @include flex(0 1 auto);
+            width: 30%;
+        }
+    }
 }
