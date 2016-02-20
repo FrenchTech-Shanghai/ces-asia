@@ -3,6 +3,36 @@
  */
 
 footer {
+    background: $footer-bg;
+    color: $footer-color;
+    font-size: 0.8em;
+    margin-top: 4em;
+    padding: 2em 0;
     text-align: center;
     width: 100%;
+
+    [class^="icon-"], [class*=" icon-"] {
+        font-size: 4em;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0 0 2em 0;
+        padding: 0;
+        @include align-items(center);
+        @include display(flex);
+        @include justify-content(center);
+
+        li {
+            margin: 0 1.4em;
+            padding: 0;
+            text-align: center;
+            @include flex(0 1 auto);
+        }
+    }
+
+    a {
+        color: $footer-color;
+        text-decoration: none;
+    }
 }
