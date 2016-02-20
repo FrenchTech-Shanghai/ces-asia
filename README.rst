@@ -12,7 +12,7 @@ To install the development environment, follow those steps:
 
 .. code:: shell
 
-    $ pip install requirements.txt
+    $ pip install -r requirements.txt
     $ nodeenv -p --prebuilt -c
     $ npm install -g bower
     $ bower install
