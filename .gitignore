@@ -1,5 +1,7 @@
 # python
 *.py[cod]
+# flask secret key
+ces_asia/secret.py
 # flask assets
 ces_asia/static/.webassets-cache
 ces_asia/static/css/style.css
