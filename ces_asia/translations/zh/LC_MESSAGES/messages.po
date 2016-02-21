@@ -20,31 +20,31 @@ msgstr ""
 
 #: ces_asia/app.py:56
 msgid "Company name"
-msgstr ""
+msgstr "公司名"
 
 #: ces_asia/app.py:57
 msgid "Contact name"
-msgstr ""
+msgstr "联系人姓名"
 
 #: ces_asia/app.py:58
 msgid "Contact email"
-msgstr "联系方式"
+msgstr "联系邮箱"
 
 #: ces_asia/app.py:84
 msgid "All fields are required"
-msgstr ""
+msgstr "所有选项都需要填写"
 
 #: ces_asia/app.py:92
 msgid "This company email is already signed up"
-msgstr ""
+msgstr "该公司邮箱已被注册"
 
 #: ces_asia/templates/about.html:3 ces_asia/templates/base.html:21
 msgid "What's CES Asia"
-msgstr ""
+msgstr "CES Asia 是什么？"
 
 #: ces_asia/templates/base.html:3
 msgid "La French Tech at CES Asia 2016"
-msgstr ""
+msgstr "CES Asia 2016展会上的la French Tech"
 
 #: ces_asia/templates/base.html:17 ces_asia/templates/index.html:6
 msgid "La French Tech Shanghai Community logo"
@@ -52,12 +52,12 @@ msgstr ""
 
 #: ces_asia/templates/base.html:20
 msgid "Home"
-msgstr ""
+msgstr "主页"
 
 #: ces_asia/templates/base.html:22 ces_asia/templates/signup.html:3
 #: ces_asia/templates/signup.html:22
 msgid "Signup"
-msgstr ""
+msgstr "注册"
 
 #: ces_asia/templates/base.html:23 ces_asia/templates/contacts.html:3
 msgid "Contacts"
@@ -65,11 +65,11 @@ msgstr "联系方式"
 
 #: ces_asia/templates/base.html:24
 msgid "FAQ"
-msgstr ""
+msgstr "常见问题"
 
 #: ces_asia/templates/base.html:54
 msgid "La French Tech logo"
-msgstr ""
+msgstr "La French Tech 标志"
 
 #: ces_asia/templates/base.html:54
 msgid "La French Tech website"
