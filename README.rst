@@ -16,7 +16,7 @@ To install the development environment, follow those steps:
     $ nodeenv -p --prebuilt -c
     $ npm install -g bower
     $ bower install
-    $ pybabel compile -d translations
+    $ pybabel compile -d ces_asia/translations
 
 Development
 ===========
