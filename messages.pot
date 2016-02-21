@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-02-20 17:58+0800\n"
+"POT-Creation-Date: 2016-02-21 14:56+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,6 +66,14 @@ msgstr ""
 msgid "FAQ"
 msgstr ""
 
+#: ces_asia/templates/base.html:54
+msgid "La French Tech logo"
+msgstr ""
+
+#: ces_asia/templates/base.html:54
+msgid "La French Tech website"
+msgstr ""
+
 #: ces_asia/templates/contacts.html:6
 msgid "Press contacts"
 msgstr ""
@@ -113,19 +121,36 @@ msgid ""
 "technologies grand public. Il proposera un espace presse dédié dans "
 "lequel les exposants présenteront leurs innovations ainsi que des salles "
 "de réunions réservées pour des rencontres avec des partenaires ou des "
-"clients. Deux événements de mise en relation ponctueront le salon : un "
-"cocktail dînatoire, le 11 mai, offert par les organisateurs du CES Asia, "
-"avec tous les exposants présents. Une soirée, organisée à la résidence du"
-" consul général de France à Shanghai, le 12 mai, regroupera les acteurs "
-"de la French Tech en Chine, les institutions gouvernementales, les "
-"exposants du pavillon French Tech Shanghai Community, les sponsors et les"
-" partenaires locaux. Une cinquantaine de conférences thématiques seront "
-"proposées tout au long des trois jours. Plus de 30 000 visiteurs sont "
-"attendus dont les dirigeants des plus grandes entreprises High-Tech au "
-"monde, des leaders d’opinion et des membres de l’administration chinoise."
+"clients."
 msgstr ""
 
 #: ces_asia/templates/index.html:12
+msgid "Deux événements de mise en relation ponctueront le salon :"
+msgstr ""
+
+#: ces_asia/templates/index.html:14
+msgid ""
+"un cocktail dînatoire, le 11 mai, offert par les organisateurs du CES "
+"Asia, avec tous les exposants présents."
+msgstr ""
+
+#: ces_asia/templates/index.html:15
+msgid ""
+"Une soirée, organisée à la résidence du consul général de France à "
+"Shanghai, le 12 mai, regroupera les acteurs de la French Tech en Chine, "
+"les institutions gouvernementales, les exposants du pavillon French Tech "
+"Shanghai Community, les sponsors et les partenaires locaux."
+msgstr ""
+
+#: ces_asia/templates/index.html:17
+msgid ""
+"Une cinquantaine de conférences thématiques seront proposées tout au long"
+" des trois jours. Plus de 30 000 visiteurs sont attendus dont les "
+"dirigeants des plus grandes entreprises High-Tech au monde, des leaders "
+"d’opinion et des membres de l’administration chinoise."
+msgstr ""
+
+#: ces_asia/templates/index.html:18
 msgid ""
 "« La Chine joue un rôle moteur essentiel pour tirer l’industrie High-Tech"
 " dans son ensemble vers l’avant et offre une chance incroyable "
@@ -137,11 +162,11 @@ msgid ""
 "organisateur du CES."
 msgstr ""
 
-#: ces_asia/templates/index.html:13
+#: ces_asia/templates/index.html:19
 msgid "La French Tech, une ambition collective pour les startups françaises"
 msgstr ""
 
-#: ces_asia/templates/index.html:14
+#: ces_asia/templates/index.html:20
 msgid ""
 "Lancée en novembre 2013, la French Tech vise à accélérer la croissance "
 "des startups numériques et à renforcer l’attractivité de la France dans "
@@ -154,13 +179,13 @@ msgid ""
 "françaises et leur rayonnement à l’international."
 msgstr ""
 
-#: ces_asia/templates/index.html:15
+#: ces_asia/templates/index.html:21
 msgid ""
 "Le CES, un rendez-vous incontournable de l’innovation et des nouvelles "
 "tendances"
 msgstr ""
 
-#: ces_asia/templates/index.html:16
+#: ces_asia/templates/index.html:22
 msgid ""
 "Créé à Las Vegas, le salon Consumer Electronics Show sert de terrain "
 "d’essai aux innovateurset aux technologies avant-gardistes. C’est un "

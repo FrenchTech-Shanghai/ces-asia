@@ -63,15 +63,15 @@ def before():
     if request.view_args and 'lang' in request.view_args:
         if request.view_args['lang'] not in app.config['LANGUAGES']:
             return abort(404)
-        g.current_lang = request.view_args['lang']
+        g.lang = request.view_args['lang']
         request.view_args.pop('lang')
     else:
-        g.current_lang = app.config['BABEL_DEFAULT_LOCALE']
+        g.lang = app.config['BABEL_DEFAULT_LOCALE']
 
 @babel.localeselector
 def get_locale():
-    if 'current_lang' in g:
-        return g.get('current_lang')
+    if 'lang' in g:
+        return g.get('lang')
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
 

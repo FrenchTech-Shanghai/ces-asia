@@ -1,4 +1,4 @@
-# French translations for PROJECT.
+# Chinese translations for PROJECT.
 # Copyright (C) 2016 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2016-02-21 14:56+0800\n"
-"PO-Revision-Date: 2016-02-18 11:48+0800\n"
+"PO-Revision-Date: 2016-02-21 14:37+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,52 +20,52 @@ msgstr ""
 
 #: ces_asia/app.py:56
 msgid "Company name"
-msgstr "Nom de l'entreprise"
+msgstr ""
 
 #: ces_asia/app.py:57
 msgid "Contact name"
-msgstr "Nom du contact"
+msgstr ""
 
 #: ces_asia/app.py:58
 msgid "Contact email"
-msgstr "E-mail"
+msgstr "联系方式"
 
 #: ces_asia/app.py:84
 msgid "All fields are required"
-msgstr "Tous les champs doivent être remplis"
+msgstr ""
 
 #: ces_asia/app.py:92
 msgid "This company email is already signed up"
-msgstr "Cet email est déja enregistré"
+msgstr ""
 
 #: ces_asia/templates/about.html:3 ces_asia/templates/base.html:21
 msgid "What's CES Asia"
-msgstr "Qu'est-ce que le CES Asia"
+msgstr ""
 
 #: ces_asia/templates/base.html:3
 msgid "La French Tech at CES Asia 2016"
-msgstr "La French Tech au CES Asia 2016"
+msgstr ""
 
 #: ces_asia/templates/base.html:17 ces_asia/templates/index.html:6
 msgid "La French Tech Shanghai Community logo"
-msgstr "Logo de la French Tech Shanghai Community"
+msgstr ""
 
 #: ces_asia/templates/base.html:20
 msgid "Home"
-msgstr "Accueil"
+msgstr ""
 
 #: ces_asia/templates/base.html:22 ces_asia/templates/signup.html:3
 #: ces_asia/templates/signup.html:22
 msgid "Signup"
-msgstr "Inscription"
+msgstr ""
 
 #: ces_asia/templates/base.html:23 ces_asia/templates/contacts.html:3
 msgid "Contacts"
-msgstr "Contacts"
+msgstr "联系方式"
 
 #: ces_asia/templates/base.html:24
 msgid "FAQ"
-msgstr "FAQ"
+msgstr ""
 
 #: ces_asia/templates/base.html:54
 msgid "La French Tech logo"
@@ -77,29 +77,31 @@ msgstr ""
 
 #: ces_asia/templates/contacts.html:6
 msgid "Press contacts"
-msgstr "Contacts presse"
+msgstr "联系方式"
 
 #: ces_asia/templates/contacts.html:8
 msgid "French and English"
-msgstr "Français et Anglais"
+msgstr "法语还是英语"
 
 #: ces_asia/templates/contacts.html:9
 msgid "Chinese"
-msgstr "Chinois"
+msgstr "中文"
 
 #: ces_asia/templates/contacts.html:9
 msgid "Wang Hailu"
-msgstr ""
+msgstr "Mr Wang Hailu 王海鲁先生"
 
 #: ces_asia/templates/index.html:7
 msgid "CES Asia logo"
-msgstr "Logo du CES Asia"
+msgstr ""
 
 #: ces_asia/templates/index.html:9
 msgid ""
 "La French Tech Shanghai Community et les autres métropoles de la Grande "
 "Chine affirment leur présence au CES Asia 2016"
 msgstr ""
+"La French Tech Shanghai Community 以及 La French Tech 在大中华地区的其他分会确认将会出席 "
+"2016 年 CES 亚洲展"
 
 #: ces_asia/templates/index.html:10
 msgid ""
@@ -107,6 +109,8 @@ msgid ""
 " 11 au 13 mai, dans le cadre du CES Asia 2016 à Shanghai, à l’initiative "
 "de la French Tech Shanghai Community."
 msgstr ""
+"亚洲史上的第一次,法国公司将首次在 La French Tech ShanghaiCommunity 的组织下,参加于 5 月 11 日到 13 "
+"日在上海举行的CES 2016 亚洲盛会。"
 
 #: ces_asia/templates/index.html:11
 msgid ""
@@ -124,16 +128,24 @@ msgid ""
 "de réunions réservées pour des rencontres avec des partenaires ou des "
 "clients."
 msgstr ""
+"自 2015 年 8 月以来, La French Tech Shanghai Community 的目标就是帮助法国的"
+"新兴企业向外拓展并且建立起这些法国企业家们和中国内部市场的联系纽带。伴随着"
+"这样的步伐, La French Tech Shanghai Community 确定将会参加定于 2016 年 5 月召开"
+"的 CES 亚洲展上, 旨在加速推广法国企业最新发展的新兴技术. La French Tech Shanghai"
+"Community 的展馆将会为新兴企业开辟专门的场地,在此聚集法国公众技术开发领域"
+"最前沿的企业。在这片场地中,将会包括专门的媒体发布区给参展商介绍他们的创新,"
+"同时也会提供用来交流洽谈的会议室给需要的合作者和客户。"
 
 #: ces_asia/templates/index.html:12
 msgid "Deux événements de mise en relation ponctueront le salon :"
-msgstr ""
+msgstr "本届沙龙将会有两场旨在促进各方交流的活动:"
 
 #: ces_asia/templates/index.html:14
 msgid ""
 "un cocktail dînatoire, le 11 mai, offert par les organisateurs du CES "
 "Asia, avec tous les exposants présents."
 msgstr ""
+"5 月 11 日晚,CES 亚洲主办方将会举行的有所有参展商参加的鸡尾酒冷餐会。"
 
 #: ces_asia/templates/index.html:15
 msgid ""
@@ -142,6 +154,8 @@ msgid ""
 "les institutions gouvernementales, les exposants du pavillon French Tech "
 "Shanghai Community, les sponsors et les partenaires locaux."
 msgstr ""
+"5 月 12 日晚,将会由法国总领事馆组织的一场由 la French Tech 中国,各政府"
+"组织,la French Tech 参展商以及赞助商和当地合作者参加的晚会。"
 
 #: ces_asia/templates/index.html:17
 msgid ""
@@ -150,6 +164,9 @@ msgid ""
 "dirigeants des plus grandes entreprises High-Tech au monde, des leaders "
 "d’opinion et des membres de l’administration chinoise."
 msgstr ""
+"在此次为期三天的展会期间将会有将近 50 台不同主题的展示宣讲会。预计有包"
+"括世界顶尖高技术企业的领导者,意见领袖以及各团体的领导人在内的超过 30000 名"
+"观众将会参观本次展览。"
 
 #: ces_asia/templates/index.html:18
 msgid ""
@@ -162,10 +179,14 @@ msgid ""
 "Technology Association (organisation gouvernementale américaine) et "
 "organisateur du CES."
 msgstr ""
+"“中国正成为推动高技术产业向前发展的一个重要动力,并且为加快创新的节"
+"奏提供了不可思议的机遇。 CES 亚洲就是要通过和中国乃至世界上顶尖的一些大品牌"
+"直接互动为参观者提供这方面的经验”, Gary Shapiro, 美国消费者技术协会主席,CES"
+"的组织者如是说。"
 
 #: ces_asia/templates/index.html:19
 msgid "La French Tech, une ambition collective pour les startups françaises"
-msgstr ""
+msgstr "La French Tech——法国新兴企业共同的愿景"
 
 #: ces_asia/templates/index.html:20
 msgid ""
@@ -179,12 +200,17 @@ msgid ""
 " etc. Autant d’acteurs qui s’engagent pour la croissance des startups "
 "françaises et leur rayonnement à l’international."
 msgstr ""
+"创始于 2013 年 11 月的 la French Tech 致力于加速数字新兴企业的增长以及加强"
+"法国在世界创新竞争中的吸引力。"
+"La French Tech 旨在服务所有在法国和全球为了法国的新兴企业工作的人员。 首"
+"先是企业人,同时也包括投资者、工程师、设计师、开发者、大企业、团体、媒体、"
+"研究机构等等所有这些致力于法国新兴企业向国际的拓展的人。"
 
 #: ces_asia/templates/index.html:21
 msgid ""
 "Le CES, un rendez-vous incontournable de l’innovation et des nouvelles "
 "tendances"
-msgstr ""
+msgstr "CES——一场不可错过的创新与新趋势的盛宴"
 
 #: ces_asia/templates/index.html:22
 msgid ""
@@ -194,18 +220,9 @@ msgid ""
 "liées aux technologies grand public. Le premier CES Asia s’est déroulé, à"
 " Shanghai, en mai 2015."
 msgstr ""
-
-#~ msgid "La French Tech Shanghai logo"
-#~ msgstr ""
-
-#~ msgid "What's CES ASIA"
-#~ msgstr ""
-
-#~ msgid "Name"
-#~ msgstr ""
-
-#~ msgid "Contact email"
-#~ msgstr ""
+"2015 年 5 月,创立于拉斯维加斯的 CES(Consumer Electronics Show)沙龙已经"
+"成功地在上海举办了第一次亚洲展览。这台盛会是一片考察创新人员与前卫技术的热"
+"土,同时也是一场以公共技术的繁荣发展为主旨的世界性论坛。"
 
 #~ msgid ""
 #~ "Initiée en août 2015, l’ambition de "
