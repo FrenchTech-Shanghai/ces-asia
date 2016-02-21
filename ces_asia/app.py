@@ -32,6 +32,7 @@ purecss = Bundle('bower_components/pure/base-min.css',
                  'bower_components/pure/buttons-core-min.css',
                  'bower_components/pure/buttons-min.css',
                  'bower_components/pure/forms-min.css',
+                 'bower_components/pure/tables-min.css',
                  filters='cssmin',
                  output='css/pure.css')
 assets.register('purecss', purecss)
@@ -49,7 +50,7 @@ class Company(db.Model):
         self.email = email
 
     def __repr__(self):
-        return '<Company {}>'.format(self.company)
+        return '<Company {}>'.format(self.name)
 
 
 class SignupForm(Form):
@@ -94,6 +95,11 @@ def signup():
             return render_template('signup.html', form=form)
     elif request.method == 'GET':
         return render_template('signup.html', form=form)
+
+@app.route('/admin/signups/')
+def admin_signups():
+    companies = Company.query.all()
+    return render_template('admin/signups.html', companies=companies)
 
 @app.route('/<lang>/contacts/')
 @app.route('/contacts/')

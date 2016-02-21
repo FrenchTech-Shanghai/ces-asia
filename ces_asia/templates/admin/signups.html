@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}# {{ _('Signups list') }}{% endblock title %}
+
+{% block content %}
+
+<table class="pure-table pure-table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>{{ _('Company name') }}</th>
+            <th>{{ _('Contact name') }}</th>
+            <th>{{ _('Contact email') }}</th>
+        </tr>
+    </thead>
+    <tbody>
+{% for company in companies %}
+        <tr>
+            <td>{{ company.id }}</td>
+            <td>{{ company.name }}</td>
+            <td>{{ company.contact }}</td>
+            <td><a href="mailto:{{ company.email }}">{{ company.email }}</a></td>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

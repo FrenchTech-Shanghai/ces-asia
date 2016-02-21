@@ -18,6 +18,11 @@ To install the development environment, follow those steps:
     $ bower install
     $ pybabel compile -d ces_asia/translations
 
+Security
+--------
+
+Any page under the admin folder should be password protected by the web server (eg. http basic auth).
+
 Development
 ===========
 
